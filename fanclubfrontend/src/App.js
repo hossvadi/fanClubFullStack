@@ -1,9 +1,13 @@
 import './App.css';
+import AppBar from './components/Appbar';
+import Fan from './components/Fan';
 
 function App() {
   return (
     <div className="App">
-      This is Juve cource
+      <AppBar/>
+      <Fan/>
+
     </div>
   );
 }
