@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/fan")
+@CrossOrigin
 public class FanController {
     @Autowired
     private FanService fanService;
